@@ -7,7 +7,7 @@ import cors from 'cors';    //server error
 
 
 const app = express();
-const MONGO_URL=process.env.MONGO_URL
+const MONGO_URL=process.env.MONGO_URL 
 const PORT=process.env.PORT||3000
 const FRONTEND=process.env.FRONTEND
 
