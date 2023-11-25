@@ -1,7 +1,7 @@
 import Product from'../models/productModel.js'
 import asyncHandler from 'express-async-handler'
 
-// get all product from database
+// get all product from databases
 const getProducts=async (req, res) => {
     try {
         const product = await Product.find({})
