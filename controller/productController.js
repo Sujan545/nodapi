@@ -36,7 +36,7 @@ const createProduct = asyncHandler(async (req, res) => {
     }
 })
 
-//delete product from databases
+//Delete product from databases
 const deleteProduct= asyncHandler(async (req, res) => {
     try {
         const { id } = req.params;
