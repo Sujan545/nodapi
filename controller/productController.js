@@ -70,7 +70,7 @@ const updateProduct =asyncHandler(async (req, res) => {
         throw new Error(error.message);
 }
 })
-//creating object and exporting
+//creating object and exporting in route
  const obj= {
 getProducts,
 getProduct,
