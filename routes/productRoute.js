@@ -8,7 +8,7 @@ const router = express.Router();
 
 //fetch all data from databases
 router.get('/', obj.getProducts);
-//Update oor edit data in database
+//Update or edit data in database
 router.put('/:id',obj.updateProduct );
 //delete a product from database
 router.delete('/:id', obj.deleteProduct);
